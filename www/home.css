@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh; 
+    background: url(cleaningtable.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    background-color: #7e9c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.icon h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.icon img{
+    width: 80px;
+    margin-left: 20px;
+}
+.home{
+    margin-right: 30px;
+}
+.home ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.home ul li a{
+    color: white;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+.home ul li a:hover{
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.home ul li a.active{
+    border: 1px solid white;
+}
+.content{
+    width: 1200px;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.content p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: arial;
+}
+.theform{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.login, .signup{
+    width: 250px;
+    height: 300px;
+    background-color: #7e9c;
+    border-radius: 10px;
+    padding: 25px;
+}
+.login h2, .signup h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.login input, .signup input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(6, 58, 21, 0.8);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 20px; 
+}
+.btn{
+    width: 240px;
+    height: 40px;
+    background: white;
+    color: #7e9c;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover{
+    background: rgba(9, 230, 71, 0.8);
+    color: white;
+}
+
